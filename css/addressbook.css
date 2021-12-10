@@ -1,0 +1,31 @@
+
+.WebContainer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 238, 238);
+}
+
+.header {
+    padding: 15px 0;
+    background-color: white;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.person-text {
+    color: blue;
+}
+.person {
+    color: grey;
+    
+}
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+ 

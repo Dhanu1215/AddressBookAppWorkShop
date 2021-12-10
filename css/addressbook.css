@@ -1,10 +1,4 @@
 
-.WebContainer{
-    width: 100%;
-    height: auto;
-    background-color: rgb(245, 238, 238);
-}
-
 .header {
     padding: 15px 0;
     background-color: white;
@@ -28,4 +22,13 @@
     align-items: center;
     width: 80%;
 }
- 
+ .form-head {
+    min-height: calc(100% - 70px);
+    color: white;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

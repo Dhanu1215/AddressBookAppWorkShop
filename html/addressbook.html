@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="..\css\bk.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-content">
+            <img src="../assets/logo.jpeg">
+        <div>
+            <span class="header-text">ADDRESS</span> <br>
+            <span class="headet-text-book">BOOK</span>
+        </div>
+        </div>
+    </header>
+    <form action="#" class="form-content" >
+        <div class="details">
+        <h1 class="header-content">PERSON ADDRESS FORM  
+            <div class="logo-content">
+                <a href="../html/addressbook.html"><img class="form-head-image" src="../assets/cancel.jpeg"
+                    alt="logo"></a>
+            </div>
+        </h1>
+        
+        <div class="row-content">
+            <label for="name" class="label text">Full Name</label>
+            <br>
+            <input type="text" class="input" id="name" name="name" placeholder="fullname.." autocomplete="off" required>
+            <error-output class="name-error"></error-output>
+        </div>
+      <br>
+      <div class = "row-content">
+        <label for ="phoneNumber" class="label text">Phone Number</label>
+        <br>
+        <input type ="tel" class="input" id="phoneNumber" name="phoneNumber" placeholder=" phone number.."
+          autocomplete ="off" required>
+        <error-output class="phonNum-error"></error-output>
+    </div>
+    <br>
+    <div class = "row-content">
+        <label for ="address" class="label text">Address</label>
+        <br>
+        <input type ="text" class="input" id="address" name="address" placeholder=" address.."
+          autocomplete ="off" required>
+        <error-output class="address-error"></error-output>
+    </div>
+    <br>
+    <div class = "row-content">
+    <div class="column-con">
+        <div class="column-content">
+        <label for ="city" class="label text">City</label>
+        <br>
+        <input type ="text" class="input1" id="city" name="city" placeholder="city.."
+          autocomplete ="off" required>
+        <error-output class="city-error"></error-output>
+    </div>
+    <div class="column-content">
+        <label for ="state" class="label text">State</label>
+        <br>
+        <input type ="text" class="input1" id="state" name="state" placeholder="state.."
+          autocomplete ="off" required>
+        <error-output class="state-error"></error-output>
+    </div>
+    <div class="column-content">
+        <label for ="zip-code" class="label text">Zip-Code</label>
+        <br>
+        <input type ="text" class="input1" id="zip-code" name="zip-code" placeholder="zip-code.."
+          autocomplete ="off" required>
+        <error-output class="zipCode-error"></error-output>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
